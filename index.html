@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="dashboard">
+        <div class="sidebar">
+            <div class="logo"><img src="./images/view-dashboard.svg">Dashboard</div>
+            <div class="all-tabs">
+                <ul>
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li>Messages</li>
+                    <li>History</li>
+                    <li>Tasks</li>
+                    <li>Communities</li>
+                    <li></li>
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="top">
+                <form action="post">
+                    <button type="submit"><img src="./images/magnify.svg"></button>
+                    <input type="text">
+                </form>
+                <div class="right">
+                    [bell-for-notification]
+                    [profile-pic]
+                    [profile-name]
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    [profile-pic]
+                    [greet]
+                    [profile-name]
+                </div>
+                <div class="right">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="feed">
+            <div class="self">
+                Your Posts
+                <div class="posts">
+                    <div class="card">A</div>
+                    <div class="card">B</div>
+                    <div class="card">C</div>
+                    <div class="card">D</div>
+                    <div class="card">E</div>
+                    <div class="card">F</div>
+                </div>
+            </div>
+            <div class="global">
+                <div class="announcements">
+                    Announcements
+                    <div class="board">
+                        <div class="news">A</div>
+                        <div class="news middle">B</div>
+                        <div class="news">C</div>
+                    </div>
+                </div>
+                <div class="trending">
+                    Trending
+                    <div class="list">
+                        <div class="user"></div>
+                        <div class="user"></div>
+                        <div class="user"></div>
+                        <div class="user"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
